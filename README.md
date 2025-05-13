@@ -6,9 +6,9 @@ This repository contains basic algorithm implementations for both searching and 
 
 - In a given sorted array, it searches for the target element after iterating through the array one by one.
 
-Time complexity
-Best case - O(1)
-Worst case - 0(n)
+<ins>Time complexity</ins>
+- Best case - O(1)
+- Worst case - 0(n)
 
 -------------------------------------------------------------------------------------------------------------------------
 
@@ -24,7 +24,7 @@ Worst case - 0(n)
 - The process will continue until the key is found or the array is exhausted.
 - If array was exhausted then target element wasn't present in array.
 
-Time complexity - O(logn)
+<ins>Time complexity</ins> - O(logn)
 
 -------------------------------------------------------------------------------------------------------------------------
 
@@ -39,9 +39,9 @@ Time complexity - O(logn)
 **NOTE**
 - This description is for ascending order i.e. lower to higher, simply change the inequality symbols (angle brackets) if you want descending order.
 
-Time complexity
-Best case - O(n)
-Worst case - O(n^2)
+<ins>Time complexity</ins>
+- Best case - O(n)
+- Worst case - O(n<sup>2</sup>)
 
 -------------------------------------------------------------------------------------------------------------------------
 
@@ -55,8 +55,8 @@ Worst case - O(n^2)
 - Then it combines 2 sets of pairs and do the same thing again.
 - This is done till the entire array is rebuilt and we have a sorted array.
 
-Time complexity - O(log(n))
-Space complexity - O(n)
+<ins>Time complexity</ins> - O(log(n))
+<ins>Space complexity</ins> - O(n)
 
 -------------------------------------------------------------------------------------------------------------------------
 
@@ -73,9 +73,9 @@ Once we finish, the list is completely sorted.
 **NOTE** - The code can be optimized to significantly reduce the probablility of worse-case, and on average 2-3 times faster than merge sort.
 -It also have a space complexity of O(log(n)).
 
-Time complexity
-Best - O(nlog(n))
-Worst - O(n^2)
+<ins>Time complexity</ins>
+- Best - O(nlog(n))
+- Worst - O(n<sup>2</sup>)
 
 -------------------------------------------------------------------------------------------------------------------------
 
@@ -90,9 +90,9 @@ Worst - O(n^2)
 
 - It has a space complexity of O(1) (in-place sorting).
 
-Time complexity
-Best - O(n)
-Worst - O(n^2)
+<ins>Time complexity</ins>
+- Best - O(n)
+- Worst - O(n<sup>2</sup>)
 
 -------------------------------------------------------------------------------------------------------------------------
 
@@ -104,13 +104,13 @@ Worst - O(n^2)
 - The sorted part grows with each iteration from left to right.
 - Continues until the entire list is sorted.
 
-**NOTE** - Unlike bubble sort, selection sort makes fewer swaps, but it still performs O(n²) comparisons.
+**NOTE** - Unlike bubble sort, selection sort makes fewer swaps, but it still performs O(n<sup>2</sup>) comparisons.
 
 - It also has a space complexity of O(1).
 
-Time complexity
-Best - O(n^2)
-Worst - O(n^2)
+<ins>Time complexity</ins>
+- Best case = O(n<sup>2</sup>)
+- Worst case = O(n<sup>2</sup>)
 
 -------------------------------------------------------------------------------------------------------------------------
 ### How to run
